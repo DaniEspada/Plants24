@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <brand>
-        <headerColor>#0FFE3B</headerColor>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
-    </brand>
-    <description>Mi cultivo de plantas</description>
-    <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>My Plants</label>
+    <label>Data Manager</label>
     <navType>Standard</navType>
-    <tabs>Species__c</tabs>
+    <tabs>standard-AnalyticsDataManager</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>My_Plants_UtilityBar</utilityBar>
 </CustomApplication>
