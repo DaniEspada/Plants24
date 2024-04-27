@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef1"
+      },
+      "Description__c": "Conocida por sus propiedades medicinales y aplicaciones en la piel",
+      "Harvesting_After_Months__c": null,
+      "Ideal_Max_Temperature__c": 25,
+      "Ideal_Min_Temperature__c": null,
+      "Image_URL__c": "https://www.farmaceuticonline.com/wp-content/uploads/2019/03/aloevera.jpg",
+      "Light_Notes__c": null,
+      "Light__c": null,
+      "Location__c": "Outdoors",
+      "Name": "Aloe Vera",
+      "Planting_Distance_CM__c": null,
+      "Pluning_Notes__c": null,
+      "Pot__c": null,
+      "Propagation_Notes__c": null,
+      "Propagation__c": null,
+      "Pruning_Notes__c": null,
+      "Pulveritation__c": false,
+      "Recommended_Fertilizer__c": null,
+      "Regions__c": null,
+      "Soil__c": null,
+      "Sowing__c": null,
+      "Summer_Fertilization_Frequency__c": null,
+      "Summering_Watering_Frequency__c": null,
+      "Temperature_Notes__c": null,
+      "Type__c": "Ornamental",
+      "Watering_Notes__c": null,
+      "Winter_Fertilization_Frequency__c": null,
+      "Winter_Watering_Frequency__c": null
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef2"
+      },
+      "Description__c": "Aromatica que huele de maravilla, muy usada en la gastronomia, en la medicina popular y para hacer te",
+      "Harvesting_After_Months__c": 2,
+      "Ideal_Max_Temperature__c": 15,
+      "Ideal_Min_Temperature__c": 30,
+      "Image_URL__c": "https://decoracionyjardines.com/wp-content/uploads/2017/02/cuidados-de-la-hierbabuena.jpg",
+      "Light_Notes__c": "Abundante luz, aunque se puede quemar a pleno sol",
+      "Light__c": "Full Sun;Half shade",
+      "Location__c": "Indoors;Outdoors",
+      "Name": "Hierbabuena",
+      "Pruning_Notes__c": "Despues de florecer, casi a ras",
+      "Propagation__c": "Cuttings",
+      "Pulveritation__c": false,
+      "Recommended_Fertilizer__c": "Orgánico",
+      "Regions__c": "North America;Central America;South America; Europe",
+      "Soil__c": "Que drene bien",
+      "Sowing__c": "MAR;APR;MAY",
+      "Summer_Fertilization_Frequency__c": "Every other Week",
+      "Summering_Watering_Frequency__c": "Daily",
+      "Temperature_Notes__c": "Proteger de las heladas",
+      "Type__c": "Edible",
+      "Winter_Watering_Frequency__c": "Weekly",
+      "Winter_Fertilization_Frequency__c": "Not needed"
+    }
+  ]
+}

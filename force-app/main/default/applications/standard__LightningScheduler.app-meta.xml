@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <brand>
-        <headerColor>#0FFE3B</headerColor>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
-    </brand>
-    <description>Mi cultivo de plantas</description>
-    <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>My Plants</label>
+    <label>Salesforce Scheduler Setup</label>
     <navType>Standard</navType>
-    <tabs>Species__c</tabs>
+    <tabs>standard-LightningSchedulerSetupAssistant</tabs>
+    <tabs>standard-ServiceTerritory</tabs>
+    <tabs>standard-ServiceResource</tabs>
+    <tabs>standard-WorkTypeGroup</tabs>
+    <tabs>standard-WorkType</tabs>
+    <tabs>standard-OperatingHours</tabs>
+    <tabs>standard-ServiceAppointment</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>My_Plants_UtilityBar</utilityBar>
 </CustomApplication>
