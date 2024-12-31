@@ -1,7 +1,23 @@
 <template>
-  <template for:each={spec} for:item="spec">
-    <div key={spec.Id}>
-      <c-species-tile specie="(spec)"></c-species-tile>
+  <div class="slds-align_absolute-center">
+    <lightning-input
+      type="text"
+      label="Enter some text"
+      onchange={handleInputChange}
+    ></lightning-input>
+  </div>
+  <div class="slds-align_absolute-center">
+    <div class="slds-grid slds-wrap slds-grid_align-spread grid">
+      <template if:true={species.data}>
+        <template for:each={species.data} for:item="specie">
+          <div key={specie.Name}>
+            <c-species-tile
+              specie={specie}
+              class="slds-col slds-var-m-around_small"
+            ></c-species-tile>
+          </div>
+        </template>
+      </template>
     </div>
-  </template>
+  </div>
 </template>
